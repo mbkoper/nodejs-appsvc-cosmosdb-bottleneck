@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
+  webAppName: 'panodejs-appsvc-cosmosdb-bottleneck'
+  serviceConnection: 'MyAzureLoadTestingRG'
+  azureSubscriptionId: 'd9350cb4-2d35-4abc-bc83-dd1a3af80991'
+  loadTestResource: 'pa-azure-load-testing'
+  loadTestResourceGroup: 'pa-loadtest-rg'
   location: 'EAST US'
 
 
